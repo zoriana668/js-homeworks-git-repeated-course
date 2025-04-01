@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Головна сторінка</title>
+
+    <style>
+        body {
+            background-color: #eaa836;
+        }
+        
+        .block {
+            background-color: #fff;
+            width: 650px;
+            height: 500px;
+            border-radius: 8px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .content-block {
+            height: 83%;
+            background-color: #dadada;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            padding: 10px;
+            font-size: 26px;
+        }
+
+        .list-item {
+            margin-bottom: 10px;
+        }
+
+        .prev,
+        .next {
+            width: 120px;
+            height: 40px;
+            cursor: pointer;
+            border: none;
+            background-color: #cdcbc9;
+            border-radius: 6px;
+        }
+
+        .prev:hover,
+        .next:hover {
+            background-color: #bdbcb9;
+        }
+
+        .btn-block {
+            display: flex;
+            justify-content: center;
+            gap: 35px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="block">
+        <div class="content-block"></div>
+        <div class="btn-block">
+            <button class="prev">Prev</button>
+            <button class="next">Next</button>
+        </div>
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>
